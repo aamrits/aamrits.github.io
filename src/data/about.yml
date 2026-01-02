@@ -1,0 +1,14 @@
+about:
+  name: Amrit Anand Gandhi
+  title: Application Developer
+  description: |
+    Amrit Anand Gandhi is an experienced Front-End Engineer with a strong focus on building scalable, high-quality digital experiences using modern web technologies. Over the years, he has designed and delivered production-grade applications leveraging JavaScript frameworks such as React, with REST APIs and Apollo GraphQL, working across micro-frontend architectures and complex enterprise systems.
+
+    Over the past several years, Amrit has worked with global teams and enterprise clients across finance, energy, and media domains. He has contributed as a frontend engineer and lead, building React applications from scratch, improving performance, and mentoring developers. His work emphasizes clean architecture and reliable delivery within agile environments.
+
+    Follow Amrit on Linkedin or GitHub.
+  links:
+    - text: Linkedin
+      url: https://www.linkedin.com/in/amrit-gandhi/
+    - text: GitHub
+      url: https://github.com/aamrits/
