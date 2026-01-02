@@ -37,9 +37,11 @@
     color: #213547;
     background-color: #ffffff;
   }
+
   a:hover {
     color: #747bff;
   }
+
   button {
     background-color: #f9f9f9;
   }
@@ -164,24 +166,6 @@ h3 {
 }
 
 /* ---------------------------------------------
-   Buttons / Links
---------------------------------------------- */
-
-.cta {
-  display: inline-block;
-  padding: var(--space-sm) var(--space-md);
-  border: 1px solid var(--color-link);
-  border-radius: 4px;
-  font-weight: 500;
-  color: var(--color-link);
-}
-
-.cta:hover {
-  background: var(--color-link);
-  color: #fff;
-}
-
-/* ---------------------------------------------
    About Block
 --------------------------------------------- */
 
@@ -275,14 +259,6 @@ h3 {
 --------------------------------------------- */
 
 @media (max-width: 768px) {
-  h1 {
-    font-size: 1.875rem;
-  }
-
-  h2 {
-    font-size: 1.5rem;
-  }
-
   .container {
     padding: 1.5rem;
   }
@@ -296,20 +272,3 @@ h3 {
   }
 
 }
-
-/* ---------------------------------------------
-   Print Styles (Optional, Inspired by Saadeghi)
---------------------------------------------- */
-
-/* @media print {
-  a {
-    text-decoration: underline;
-  }
-  body {
-    color: black;
-    background: white;
-  }
-  .nav, .cta {
-    display: none;
-  }
-} */
