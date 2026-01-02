@@ -1,16 +1,27 @@
-# React + Vite
+# Amrit's website.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple website which used React Framework that reads data from YAML files and creates pages.
 
-Currently, two official plugins are available:
+## Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+See it online: https://aamrits.github.io/
 
-## React Compiler
+## Use this project to build yours
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```
+Fork it
+Edit Yaml files on `src/data` and put your own data
+```
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- It uses React + Vite template
+- It uses js-yaml package to read the yaml files
+- It used gh-pages to deploy the project to a static website
+
+## How to use
+
+```
+npm install
+npm run dev
+```
