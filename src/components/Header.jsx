@@ -30,6 +30,13 @@ export default function Header() {
                         >
                             cv
                         </NavLink>
+
+                        <NavLink
+                            to="/projects"
+                            className={({ isActive }) => (isActive ? "active" : "")}
+                        >
+                            projects
+                        </NavLink>
                     </nav>
                 </div>
             </div>

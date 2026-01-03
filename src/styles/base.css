@@ -8,15 +8,11 @@
   --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --font-jetbrains: "JetBrains Mono", monospace;
 
-  /* color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424; */
-
   --color-bg: #ffffff;
   --color-text: #111827;
   --color-muted: rgba(0, 0, 0, 0.4);
-  --color-link: #2563eb;
-  --color-link-hover: #1e40af;
+  --color-link: #B4B;
+  --color-link-hover: #B4B;
   --color-accent: #213547;
 
   --space-xs: 0.25rem;
@@ -52,8 +48,8 @@
     --color-bg: #0f0f0f;
     --color-text: #e5e7eb;
     --color-muted: #9ca3af;
-    --color-link: #3b82f6;
-    --color-link-hover: #60a5fa;
+    --color-link: #B4B;
+    --color-link-hover: #B4B;
   }
 } */
 
@@ -72,6 +68,7 @@ body {
   font-optical-sizing: auto;
   font-weight: normal;
   font-style: normal;
+  font-size: 0.875rem;
   line-height: 1.6;
   color: var(--color-text);
   background: var(--color-bg);
@@ -114,7 +111,6 @@ h3 {
 /* Typography Utilities */
 
 .lead {
-  font-size: 0.875rem;
   max-width: var(--max-content-width);
   margin-bottom: var(--space-md);
   color: var(--color-text);
@@ -161,7 +157,7 @@ h3 {
 }
 
 .links a:hover {
-  background: var(--color-accent);
+  background: var(--color-link);
   color: white;
 }
 
@@ -226,12 +222,6 @@ h3 {
   font-weight: normal;
 }
 
-.cv-sub {
-  font-size: 0.95rem;
-  color: var(--color-text);
-  margin-top: var(--space-sm);
-}
-
 .duration {
   font-size: 0.9rem;
   color: var(--color-muted);
@@ -242,7 +232,6 @@ h3 {
   padding-left: 1.2rem;
   list-style: disc;
   color: var(--color-text);
-  font-size: 0.875rem;
 }
 
 #contact .cv-item {
@@ -250,8 +239,51 @@ h3 {
   margin-bottom: 8px;
 }
 
-#contact .social-links {
+/* ---------------------------------------------
+   Projects Block
+--------------------------------------------- */
+
+.project-item {
+  margin-bottom: var(--space-md);
+  padding-bottom: 2rem;
+}
+
+.project-item .color-muted {
+  color: var(--color-muted);
+}
+
+.project-item .project-header {
   font-size: 0.875rem;
+  font-weight: normal;
+}
+
+.project-item .project-header .title {
+  font-size: 0.875rem;
+  color: var(--color-text);
+}
+
+.project-item .project-header .desc {
+  margin: 1rem 0;
+}
+
+.project-item .project-header .url {
+  margin: 1rem 0;
+}
+
+.project-tags {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.project-tags li {
+  list-style: none;
+  padding: 0.25rem 1.25rem;
+  border: 1px solid var(--color-muted);
+  border-radius: 8px;
+  margin-right: 1rem;
+  font-size: 0.875rem;
+  color: var(--color-muted);
 }
 
 /* ---------------------------------------------

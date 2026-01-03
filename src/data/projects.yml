@@ -1,0 +1,33 @@
+projects:
+  sections:
+    - title: Projects
+      items:
+        - project: My React Projects
+          content: "This is a collection of small beginners and useful apps developed in React. Languages used - React, JS, CSS"
+          url: "https://react-projects-aamrits.netlify.app/"
+          thumb: ""
+          tags:
+            - React
+            - JavaScript
+            - CSS
+
+        - project: Frontend (DSA) interview Questions
+          content: "A React application containing a collection of DSA git gist. Languages used - React, JS, CSS."
+          url: "https://interview-questions-frontend.netlify.app/"
+          thumb: ""
+          tags:
+            - React
+            - JavaScript
+            - DSA
+        
+        - project: jQuery Plugins Demo
+          content: "Find all jQuery Plugins in one place. A simple website to demonstrate commonly used jQuery plugins. Languages used - jQuery, JS, CSS, HTML"
+          url: "https://aamrits.github.io/ui-designs/jquery-plugins-html/index.html"
+          thumb: ""
+          tags:
+            - jQuery
+            - CSS
+            - HTML
+        
+        
+
