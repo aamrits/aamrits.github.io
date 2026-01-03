@@ -16,8 +16,8 @@ Edit Yaml files on `src/data` and put your own data
 ## Features
 
 - It uses React + Vite template
-- It uses js-yaml package to read the yaml files
-- It used gh-pages to deploy the project to a static website
+- It uses `js-yaml` package to read the yaml files
+- It used `gh-pages` to deploy the project to a static website
 
 ## How to use
 
@@ -25,3 +25,12 @@ Edit Yaml files on `src/data` and put your own data
 npm install
 npm run dev
 ```
+
+## How to deploy
+
+```
+npm run build
+npm run deploy
+```
+
+After doing this, the `dist` folder will be deployed to `gh-pages` branch
