@@ -2,23 +2,27 @@ cv:
   sections:
     - title: Experience
       items:
-        - role: Application Developer
+        - role: Senior Frontend Engineer
           company: IBM, India
           type: Full-time
-          duration: "Dec 2020 – Present"
+          duration: "Dec 2020 - Present"
           bullets:
-            - Developed modern, high-performance UI applications using React, TypeScript, GraphQL for enterprise clients in the Energy and Finance domains.
-            - Designed scalable UI modules, including polling mechanisms, conditional GraphQL queries, and reusable components, that improved overall system performance and reliability.
-            - Played an active role in shipping multiple projects end-to-end promptly, consistently meeting stakeholder expectations while maintaining high code quality standards.
+            - Built scalable web applications using React, TypeScript, GraphQL, and Apollo Client.
+            - Developed reusable component systems, optimized GraphQL interactions, and implemented efficient state management solutions.
+            - Improved application performance, maintainability, and reliability through modern frontend architecture and engineering best practices.
+            - Wrote comprehensive unit and integration tests, performed code reviews, and contributed to a high-quality development workflow.
+            - Collaborated with cross-functional teams to deliver robust, production-ready frontend solutions.
+            - Tech Stack Used - React, TypeScript, Apollo GraphQL
 
         - role: Senior Engineer
           company: L&T Technology Services Limited, India
           type: Full-time
-          duration: "Nov 2018 – Nov 2020"
+          duration: "Nov 2018 - Nov 2020"
           bullets:
             - Developed an interactive web application for a VoD system, where the content was distributed (after transcoding and adding additional metadata) to OTT platforms for various Content Providers in a SaaS model.
             - Designed and developed an internal project based on Digital Signage Solution, which targets how content is distributed and experienced in a wide array of devices connected over IP.
             - Worked with a small team and delivered expected output, in a fast-paced environment.
+            - Tech Stack Used - React, JavaScript, REST API
         
         - role: UI Developer
           company: Origamicx Digital Media, India
@@ -26,13 +30,13 @@ cv:
           duration: "Sep 2016 – Apr 2018"
           bullets:
             - Worked on Angular Web Applications and integrated them with the Backend APIs.
-            - Tech Stack Used - HTML5, CSS3, Bootstrap, Angular JS
             - Responsible for designing websites from PSD mock-ups.
+            - Tech Stack Used - HTML5, CSS3, Bootstrap, Angular JS
 
         - role: Web Developer
           company: Sulopa Solutions, India
           type: Full-time
-          duration: "Apr 2015 – Aug 2016"
+          duration: "Apr 2015 - Aug 2016"
           bullets:
             - Developed many websites on e-commerce and real estate domains using Magento and WordPress.
             - Tech Stack Used - HTML5, CSS3, Bootstrap, WordPress.
@@ -41,7 +45,7 @@ cv:
       items:
         - degree: B.Tech in Electronics & Communication
           school: B.P.U.T, Odisha, India
-          duration: "2006 – 2010"
+          duration: "2006 - 2010"
 
     - title: Skills
       items:
@@ -50,6 +54,15 @@ cv:
           - Backend Tech - Apollo GraphQL, NodeJS, Express
           - Bundlers - Webpack, npm, vite
           - CSS libraries - Flexbox, Grid, Sass, Bootstrap, Tailwind CSS
+          - Frontend Technologies - React, TypeScript, JavaScript (ES6+), Redux, Context API, Next.js, HTML5
+          - Backend & APIs - GraphQL, Apollo Client, Apollo Server, Node.js, Express.js, REST APIs
+          - State Management & Data Layer - Zustand, React Query, Context API
+          - Testing - Jest, React Testing Library, Unit Testing, Integration Testing
+          - Build Tools & Bundlers - Webpack, Vite, npm, Babel
+          - Styling & UI - CSS3, Sass, Tailwind CSS, Bootstrap, Flexbox, CSS Grid, Responsive Design
+          - Performance & Optimization - Code Splitting, Lazy Loading, Memoization, Bundle Optimization, Caching Strategies
+          - Architecture & Engineering Practices - Component Design Systems, Frontend Architecture, Reusable UI Libraries, Agile Development
+          - Version Control & Collaboration - Git, GitHub, Bitbucket, Jira, Confluence
 
     - title: Contact
       items:

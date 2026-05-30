@@ -199,6 +199,13 @@ h3 {
   border-bottom: 2px solid var(--color-text);
 }
 
+.hero-name {
+  font-weight: 500;
+  font-size: 1rem;
+  text-decoration: underline;
+  color: var(--color-link);
+}
+
 /* ---------------------------------------------
    CV Block
 --------------------------------------------- */
@@ -232,6 +239,15 @@ h3 {
   padding-left: 1.2rem;
   list-style: disc;
   color: var(--color-text);
+}
+
+.cv-bullets .skill-category {
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.cv-bullets li {
+  margin-bottom: 5px;
 }
 
 #contact .cv-item {

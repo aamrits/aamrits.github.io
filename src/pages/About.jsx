@@ -8,9 +8,24 @@ export default function About() {
 
     return (
         <main className="">
-            {description.split("\n\n").map((para, i) => (
-                <p key={i} className="lead">{para}</p>
-            ))}
+            {description.split("\n\n").map((para, i) => {
+                if (i === 0) {
+                    const firstName = "Amrit";
+
+                    return (
+                        <p key={i} className="lead">
+                            <span className="hero-name">{firstName}</span>
+                            {para.replace(firstName, "")}
+                        </p>
+                    );
+                }
+
+                return (
+                    <p key={i} className="lead">
+                        {para}
+                    </p>
+                );
+            })}
 
             <div className="links">
                 {links.map(({ text, url }) => (

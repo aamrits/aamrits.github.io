@@ -20,14 +20,3 @@ projects:
             - JavaScript
             - DSA
         
-        - project: jQuery Plugins Demo
-          content: "Find all jQuery Plugins in one place. A simple website to demonstrate commonly used jQuery plugins. Languages used - jQuery, JS, CSS, HTML"
-          url: "https://aamrits.github.io/ui-designs/jquery-plugins-html/index.html"
-          thumb: ""
-          tags:
-            - jQuery
-            - CSS
-            - HTML
-        
-        
-

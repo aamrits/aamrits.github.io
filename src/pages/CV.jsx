@@ -44,13 +44,25 @@ export default function CV() {
               )}
 
               {/* Bullets */}
-              {item.bullets && (
-                <ul className="cv-bullets">
-                  {item.bullets.map((b, i) => (
-                    <li key={i}>{b}</li>
-                  ))}
-                </ul>
-              )}
+              <ul className="cv-bullets">
+                {item.bullets && item.bullets.map((b, i) => {
+                  const parts = b.split(" - ");
+
+                  return (
+                    <li key={i}>
+                      {parts.length > 1 ? (
+                        <>
+                          <span className="skill-category">{parts[0]}</span>
+                          {" - "}
+                          {parts.slice(1).join(" - ")}
+                        </>
+                      ) : (
+                        b
+                      )}
+                    </li>
+                  );
+                })}
+              </ul>
             </div>
           ))}
         </section>
