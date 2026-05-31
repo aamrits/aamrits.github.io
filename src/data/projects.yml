@@ -2,6 +2,15 @@ projects:
   sections:
     - title: Projects
       items:
+        - project: Frontend Interview Questions
+          content: "An interactive frontend interview preparation platform built with Next.js, Markdown, and TypeScript. Frontend interview questions for React, JavaScript, HTML, and CSS."
+          url: "https://frontend-interview-questions-nu.vercel.app/"
+          thumb: ""
+          tags:
+            - NextJS
+            - TypeScript
+            - React Markdown
+            - TailwindCSS
         - project: My React Projects
           content: "This is a collection of small beginners and useful apps developed in React. Languages used - React, JS, CSS"
           url: "https://react-projects-aamrits.netlify.app/"
@@ -11,12 +20,12 @@ projects:
             - JavaScript
             - CSS
 
-        - project: Frontend (DSA) interview Questions
-          content: "A React application containing a collection of DSA git gist. Languages used - React, JS, CSS."
-          url: "https://interview-questions-frontend.netlify.app/"
-          thumb: ""
-          tags:
-            - React
-            - JavaScript
-            - DSA
+        # - project: Frontend (DSA) interview Questions
+        #   content: "A React application containing a collection of DSA git gist. Languages used - React, JS, CSS."
+        #   url: "https://interview-questions-frontend.netlify.app/"
+        #   thumb: ""
+        #   tags:
+        #     - React
+        #     - JavaScript
+        #     - DSA
         

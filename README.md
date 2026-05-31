@@ -1,4 +1,4 @@
-# Amrit's website.
+# Amrit's Portfolio website.
 
 This is a simple website which used React Framework that reads data from YAML files and creates pages.
 
