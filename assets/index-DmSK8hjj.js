@@ -137,6 +137,15 @@ Please change the parent <Route path="${L}"> to <Route path="${L==="/"?"*":`${L}
   sections:
     - title: Projects
       items:
+        - project: Frontend Interview Questions
+          content: "An interactive frontend interview preparation platform built with Next.js, Markdown, and TypeScript. Frontend interview questions for React, JavaScript, HTML, and CSS."
+          url: "https://frontend-interview-questions-nu.vercel.app/"
+          thumb: ""
+          tags:
+            - NextJS
+            - TypeScript
+            - React Markdown
+            - TailwindCSS
         - project: My React Projects
           content: "This is a collection of small beginners and useful apps developed in React. Languages used - React, JS, CSS"
           url: "https://react-projects-aamrits.netlify.app/"
@@ -146,12 +155,12 @@ Please change the parent <Route path="${L}"> to <Route path="${L==="/"?"*":`${L}
             - JavaScript
             - CSS
 
-        - project: Frontend (DSA) interview Questions
-          content: "A React application containing a collection of DSA git gist. Languages used - React, JS, CSS."
-          url: "https://interview-questions-frontend.netlify.app/"
-          thumb: ""
-          tags:
-            - React
-            - JavaScript
-            - DSA
+        # - project: Frontend (DSA) interview Questions
+        #   content: "A React application containing a collection of DSA git gist. Languages used - React, JS, CSS."
+        #   url: "https://interview-questions-frontend.netlify.app/"
+        #   thumb: ""
+        #   tags:
+        #     - React
+        #     - JavaScript
+        #     - DSA
         `,r2=ji.load(f2);function o2(){return Q.jsx("main",{className:"",children:r2.projects.sections.map(n=>Q.jsxs("section",{id:n.title.toLowerCase(),children:[Q.jsx("h2",{className:"section-title",children:n.title}),n.items.map((c,r)=>Q.jsxs("div",{className:"project-item",children:[c.project&&Q.jsx(Q.Fragment,{children:Q.jsxs("div",{className:"project-header",children:[Q.jsx("div",{className:"title",children:Q.jsx("b",{children:c.project})}),Q.jsx("div",{className:"desc color-muted",children:c.content}),Q.jsx("div",{className:"url",children:Q.jsx("a",{href:c.url,target:"_blank",className:"",children:"Open Project"})})]})}),c.tags&&Q.jsx("ul",{className:"project-tags",children:c.tags.map((f,o)=>Q.jsx("li",{children:f},o))})]},r))]},n.title))})}function s2(){return Q.jsx(Rg,{children:Q.jsxs("div",{className:"container",children:[Q.jsx(l2,{}),Q.jsxs(ng,{children:[Q.jsx(xi,{path:"/",element:Q.jsx(a2,{})}),Q.jsx(xi,{path:"/cv",element:Q.jsx(c2,{})}),Q.jsx(xi,{path:"/projects",element:Q.jsx(o2,{})})]})]})})}ay.createRoot(document.getElementById("root")).render(Q.jsx(M.StrictMode,{children:Q.jsx(s2,{})}));
