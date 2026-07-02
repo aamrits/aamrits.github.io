@@ -143,8 +143,7 @@ Please change the parent <Route path="${L}"> to <Route path="${L==="/"?"*":`${L}
           thumb: ""
           tags:
             - NextJS
-            - TypeScript
-            - React Markdown
+            - Markdown
             - TailwindCSS
         - project: My React Projects
           content: "This is a collection of small beginners and useful apps developed in React. Languages used - React, JS, CSS"
